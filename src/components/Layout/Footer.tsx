@@ -31,18 +31,7 @@ export function Footer() {
           </div>
           {/* Social Links */}
           <div className="flex justify-center md:justify-end space-x-4">
-            <a href="#" className="text-gray-600 hover:text-[#5E8C6A] transition-colors">
-              <Linkedin size={20} />
-              <span className="sr-only">LinkedIn</span>
-            </a>
-            <a href="#" className="text-gray-600 hover:text-[#5E8C6A] transition-colors">
-              <Twitter size={20} />
-              <span className="sr-only">Twitter</span>
-            </a>
-            <a href="#" className="text-gray-600 hover:text-[#5E8C6A] transition-colors">
-              <FileText size={20} />
-              <span className="sr-only">Medium</span>
-            </a>
+           
           </div>
         </div>
         <div className="mt-8 pt-4 border-t border-[#E5E0D9] text-center text-sm text-gray-500">
