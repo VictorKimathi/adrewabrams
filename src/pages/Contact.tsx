@@ -96,20 +96,7 @@ export function Contact() {
                 <h3 className="font-bold text-[#4A4A4A] mb-4">
                   Connect Online
                 </h3>
-                <div className="flex space-x-4">
-                  <a href="#" className="text-gray-600 hover:text-[#5E8C6A] transition-colors">
-                    <Linkedin size={24} />
-                    <span className="sr-only">LinkedIn</span>
-                  </a>
-                  <a href="#" className="text-gray-600 hover:text-[#5E8C6A] transition-colors">
-                    <Twitter size={24} />
-                    <span className="sr-only">Twitter</span>
-                  </a>
-                  <a href="#" className="text-gray-600 hover:text-[#5E8C6A] transition-colors">
-                    <FileText size={24} />
-                    <span className="sr-only">Portfolio</span>
-                  </a>
-                </div>
+                
               </div>
               <div className="border-t border-gray-200 pt-6 mt-8">
                 <h3 className="font-bold text-[#4A4A4A] mb-4">Response Time</h3>
