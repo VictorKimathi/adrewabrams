@@ -42,7 +42,7 @@ export function Navbar() {
         <div className="flex justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex-shrink-0 flex items-center">
-              <div className="text-[#5E8C6A] font-bold text-2xl">AA</div>
+              <div className="text-[#5E8C6A] font-bold text-2xl">Andrew Abrams</div>
             </Link>
           </div>
           {/* Desktop Navigation */}

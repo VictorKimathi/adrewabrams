@@ -7,7 +7,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
           {/* Logo and Tagline */}
           <div className="flex flex-col items-center md:items-start">
-            <div className="text-[#5E8C6A] font-bold text-2xl">AA</div>
+            <div className="text-[#5E8C6A] font-bold text-2xl">Andrew Abrams</div>
             <p className="mt-2 text-sm text-gray-600">
               Telling the Story of Home
             </p>
