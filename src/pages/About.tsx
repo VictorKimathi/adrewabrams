@@ -41,7 +41,7 @@ export function About() {
               <li className="mb-1">Trusted for on-time, high-quality drafts</li>
             </ul>
             <a href="adrew.docx" download>
-            <Button href="#" variant="secondary">
+            <Button  variant="secondary">
               Download My Resume
             </Button>
             </a>
