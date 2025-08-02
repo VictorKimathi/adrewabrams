@@ -20,39 +20,22 @@ export function Portfolio() {
   }];
   const projects = [{
     id: 1,
-    title: '10 Space-Saving Hacks for Small Kitchens',
-    excerpt: 'How to maximize every inch without sacrificing style.',
+    title: 'Ceiling Fan Cleaning Trick That Keeps Dust Off the Floor',
+    excerpt: 'Cleaning a ceiling fan tends to make more mess than it solves. One swipe across the blades and dust starts drifting onto nearby furniture, flooring, or anything underneath. Mic rofiber cloths and vacuums tend to scatter particles into the air, leaving behind a cloud that needs just as much cleanup as the fan itself.',
     image: 'https://images.unsplash.com/photo-1600489000022-c2086d79f9d4?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    categories: ['interior', 'diy']
+    categories: ['Home Cleaning Tips','DIY Hacks']
   }, {
     id: 2,
-    title: 'The Psychology of Color in Home Design',
-    excerpt: 'How different hues affect mood and perception in living spaces.',
+    title: 'Why Statement Art Is Taking the Place of Gallery Walls in Modern Interiors',
+    excerpt: 'Designers are moving away from gallery walls and leaning into something quieter but more commanding: statement art. Instead of a busy mix of small frames, many modern interiors now feature a single oversized and visually bold piece. The change reflects a shift in design taste, one that favors clarity, impact, and restraint.',
     image: 'https://images.unsplash.com/photo-1615529162924-f8605388461d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    categories: ['interior', 'feature']
+    categories: ['Wall Art ', 'Minimalist Aesthetics']
   }, {
     id: 3,
-    title: "Sustainable gardening: a beginner's guide, 'Earth-friendly practices for growing your own food and flowers.'",
-    image: "https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80'",
-    categories: ['gardening']
-  }, {
-    id: 4,
-    title: 'Inside Celebrity Homes: Design Lessons to Steal',
-    excerpt: 'Practical takeaways from high-end home tours.',
-    image: 'https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    categories: ['interior', 'feature']
-  }, {
-    id: 5,
-    title: 'Year-Round Garden Maintenance Calendar',
-    excerpt: 'Monthly tasks to keep your outdoor spaces thriving.',
-    image: 'https://images.unsplash.com/photo-1416879595882-3373a0480b5b?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    categories: ['gardening']
-  }, {
-    id: 6,
-    title: 'Decluttering Your Home: The 15-Minute Method',
-    excerpt: 'Small daily habits that lead to big organizational changes.',
-    image: 'https://images.unsplash.com/photo-1551516594-56cb78394645?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-    categories: ['diy']
+    title: 'The Real Reason Your Porch Plants Keep Dying',
+    excerpt: 'If your porch plants keep dying off despite regular watering and careful attention, the issue may not be your gardening skills. In many cases, the real problem is the porch itself. What causes so many container plants to fail in this space isn’t neglect or poor technique. It’s that the conditions your porch creates often don’t line up with what the plants actually need. Light levels, airflow, and heat retention all play a much bigger role than most people realize, and porches tend to push those factors to extremes. '
+    image: 'https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+    categories: [' Container Gardening ','Environmental Troubleshooting']
   }];
   const filteredProjects = activeFilter === 'all' ? projects : projects.filter(project => project.categories.includes(activeFilter));
   return <div className="pt-24 bg-white">
