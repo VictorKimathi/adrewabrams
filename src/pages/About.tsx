@@ -11,7 +11,7 @@ export function About() {
           {/* Image */}
           <div className="flex justify-center md:justify-end">
             <div className="w-64 h-64 rounded-full overflow-hidden">
-              <img src="https://images.unsplash.com/photo-1500648767791-00dcc994a43e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80" alt="Andrew Abrams" className="w-full h-full object-cover" />
+              <img src="https://unsplash.com/photos/a-young-man-is-posing-for-a-picture-3nh9i7I-vkkauto=format&fit=crop&w=800&q=80" alt="Andrew Abrams" className="w-full h-full object-cover" />
             </div>
           </div>
           {/* Bio */}
