@@ -33,7 +33,7 @@ export function Portfolio() {
   }, {
     id: 3,
     title: 'The Real Reason Your Porch Plants Keep Dying',
-    excerpt: 'If your porch plants keep dying off despite regular watering and careful attention, the issue may not be your gardening skills. In many cases, the real problem is the porch itself. What causes so many container plants to fail in this space isn’t neglect or poor technique. It’s that the conditions your porch creates often don’t line up with what the plants actually need. Light levels, airflow, and heat retention all play a much bigger role than most people realize, and porches tend to push those factors to extremes. '
+    excerpt: 'If your porch plants keep dying off despite regular watering and careful attention, the issue may not be your gardening skills. In many cases, the real problem is the porch itself. What causes so many container plants to fail in this space isn’t neglect or poor technique. It’s that the conditions your porch creates often don’t line up with what the plants actually need. Light levels, airflow, and heat retention all play a much bigger role than most people realize, and porches tend to push those factors to extremes. ',
     image: 'https://images.unsplash.com/photo-1523348837708-15d4a09cfac2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
     categories: [' Container Gardening ','Environmental Troubleshooting']
   }];
